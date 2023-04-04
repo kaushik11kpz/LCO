@@ -1,0 +1,8 @@
+- If an Image contains default messages/commands, it is shown when Image is run. Ex - docker run hello-world
+- Image which does not contain default commands do not show anything when it is run. Ex - docker run busybox
+- Images such as busybox which do not contain default commands, when a command is passed, that command is considered as 
+default commands. Ex - docker run busybox whoami - (whoami - is a linux command to know about type of user, it is now a default command)
+
+commands:
+1. docker start ID
+2. docker system prune(to erase all images) 

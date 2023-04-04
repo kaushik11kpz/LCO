@@ -1,0 +1,19 @@
+-> Reduce the cost of bandwidth while taking to database on Internet
+- Information from database comes in form of CURSOR which is a metadata(information about the information)
+- Until you actually query for information from database, CURSOR comes(which contains all the information)
+- find() in cmd gives a CURSOR object and we just then extract the information from it.
+
+--> This command works at the database level. Thus it COST EFFECTIVE in operation (consumes less bandwidth)
+17. db.studentData.find( {}, {email:1, name:1, _id:0} )  
+--> This cmd gives array of email
+-> This operations occurs at database thus, dumping of data on website is prevented leading to cost effective operations
+18  db.studentData.find( {}, {email:1, name:1, _id:0} ).toArray()  
+
+--> To find a key with multiple object
+19.  db.studentData.find({name:"Hitesh"}, {"profilepic.large": 500}).pretty()
+--> To update a key with multiple object
+20. db.studentData.updateOne({name: "Hitesh"}, {$set: { "profilepic.large": 500}})
+--> To update database with key-value(array) pair
+21. db.studentData.updateOne( {name: "Hitesh"}, {$set : { lastLogin : ["Monday", "Tuesday", "Wednesday"]}})
+--> To get array as output in key-array pair
+22. db.studentData.findOne({name:"Hitesh"}).lastLogin

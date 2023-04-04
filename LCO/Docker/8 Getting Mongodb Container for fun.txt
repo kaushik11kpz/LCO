@@ -1,0 +1,16 @@
+-Container is like a secret cage
+-One cannot directly see what is happening inside it, or cannot extract anything from docker container
+-(-it) is a command used to look and use the features of the closed container
+
+-Here, we demonstrate how can we access inside container for using a mongodb, which is not installed in our system
+-we use (docker run mongo) to run the mongodb inside container
+-Now, we cannot use mongodb from outside of container
+-To access mongodb, we need command (docker exec -it ID bash) - to access the bash inside of container
+-Now, since the root(image) terminal is open, we can access mongodb by using mongo command
+-CTRL + D - is used to exit from inside of image terminal
+
+Commands
+1. docker exec -it ID bash (in place of bash - sh/powershell etc can be used)
+2. docker stop ID (used to stop an image of ID)
+3. docker start ID (to run/start an image of ID)
+4. CTRL + D(to exit from image terminal)

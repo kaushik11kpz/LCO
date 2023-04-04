@@ -1,0 +1,4 @@
+-In VM, Hypervisor is installed which basically helps in tackling the problem of different versions requirement of
+different versions of development softwares
+-But the problem is it uses alot of resources
+-Docker tackle it by using Docker Engine(in linux) which containerizes everything and cause less use of resources

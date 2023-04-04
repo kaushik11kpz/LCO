@@ -1,0 +1,4 @@
+--Multiple ways to get inside container
+1. docker exec -it ID bash - Best way
+2. docker run -it name bash - Bad way as it override the default commands of various images
+-When mngi image is started multiple times, multiple IDs are created. These IDs are completely separate from each other 

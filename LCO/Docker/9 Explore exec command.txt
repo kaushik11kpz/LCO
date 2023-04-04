@@ -1,0 +1,5 @@
+https://docs.docker.com/engine/reference/commandline/exec/
+-The docker exec command runs a new command in a running container.
+-It is used for variety of purpose in new command running container
+(-i) - is responsible for STDIN and STDOUT from cmd to image
+(-t)-give a formatted cmd

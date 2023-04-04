@@ -1,0 +1,10 @@
+1. In bson data, keys need not to be necessarily put in double quotes
+2. Json doesnot allows ObjectId while Bson does--> which shows mongodb stores Bson data instead of Json
+3. _id is automatically provided by mongodb.
+4. We can also give any uniqueid for _id field and it will be excepted
+5. 3As of mongodb:
+ 1.Application
+ 2.Analytics
+ 3.Admin
+6. Filters are very poweful in mongodb
+7. Atomic Operator in mongodb

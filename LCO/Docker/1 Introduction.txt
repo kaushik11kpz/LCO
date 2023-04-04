@@ -1,0 +1,17 @@
+--Docker
+-It is designed to solve problem such as "It works on my machine"
+-Sometimes, when an application developed on a particular machine, but does not work appropriately when moved to another machine
+-It is a client side application program
+-Docker allows you to have absolutely sealed container, which is heart of docker
+-These containers wrap up your entire code 
+-These containers are absolutely portable
+-Wherever these containers are kept, these works exactly like in the development(your) machine
+-Docker allows social container, i.e docker allows you to publish these conatiners
+-It also acts as a social networking platform, docker image is shared
+-These containers contains
+->Code
+->Dependencies
+->Config
+->Process
+->Networking info
+->OS(some chunks), etc

@@ -1,0 +1,10 @@
+Commands:
+1. docker ps (for current running images)
+2. docker ps --all(for all running or previously runned images)
+3. docker run = docker create + docker start
+
+-Status of Image
+1. Create
+2. Started (docker start)
+3. Paused (docker pause)
+4. Exited (docker stop)

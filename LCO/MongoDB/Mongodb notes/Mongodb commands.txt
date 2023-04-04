@@ -1,0 +1,30 @@
+1. show dbs -> shows all databases
+2. use students -> create student database
+3. db.studentData.insertOne({{
+	"name": "Hitesh",
+	"email": "hitesh@hiteshchoudhary.com",
+	"contact": "9999999999",
+	"courseCount": 4,
+	"isVerified": true
+}}) -> is used to insert a collection in studentData
+4. db.studentData.find.pretty() -> to find information about database in suitable way.
+CREATE:
+3,5. insertOne(data,options)
+6. insertMany(data.options)
+READ:
+7. find(filter,option) -> filter parameter makes READ operation powerful
+8. findOne(filter,option) -> return first record which matches in filtering
+UPDATE:
+9. updateOne(filter,data,options) -> updates the first matched record after filter.
+10. updateMany(filter,data,options) -> updates all the records matched with the filter
+11. replaceOne(filter,data,options) -> replaces entire dataset matched with filter
+DELETE
+12. deleteOne(filter,options) -> deletes first record which matches the filter
+13. deleteMany(filter,options) -> deletes all the records which matches the filter.
+ATOMIC OPERATOR:
+14. {$set: {}} set values
+15. {$gt:2} -> greater than 2
+
+
+TO GET DATA FROM TABLE FOR PROGRAMMING LANGUAGES
+16. db.studentData.find().forEach((student) => {printjson(student)}) 

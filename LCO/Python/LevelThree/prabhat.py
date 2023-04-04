@@ -1,0 +1,10 @@
+def addme(num1,num2):
+    return num1+num2
+def subme(num1,num2):
+    return num2-num1
+def multime(num1,num2):
+    return num1*num2
+def divme(num1,num2):
+    return num1/num2
+def remme(num1,num2):
+    return num1%num2

@@ -1,0 +1,12 @@
+-Container is provided by Docker which contains
+->Code
+->Dependencies
+->Config
+->Process
+->Networking info
+->OS(some chunks), etc
+
+-Because some applications are not perfectly reliable with different versions of development software,
+-We install those specific versions of softwares suitable for each applications particularly,
+-and we containerize each specific block which contains code, system calls, chunks of OS, Networking info, etc.
+This is called containerization

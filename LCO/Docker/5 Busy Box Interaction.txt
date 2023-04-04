@@ -1,0 +1,7 @@
+-Busy box is an image
+-This is used to understand more about docker
+-Image in docker is like snapshot
+-Snapshot of OS,Code,VM,Configurations is captured at that moment and later on can be deployed over production
+-BusyBox is a layer of linux
+-Linux commands can be run on it
+
